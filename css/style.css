@@ -1,0 +1,226 @@
+*{
+    margin: o; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS';
+}
+
+/* ---------header logo ------------- */
+.mainheader{
+    width: 100%;
+    height: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.mainheader .logo img{
+    width: 30%;
+    height: 30%;
+}
+
+/*----------- main image -------------*/
+
+.features{
+    padding: 70px 10%;
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+  .row2{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .row1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .row{
+    display: flex;
+    width: 100%;
+  }
+  .text-col{
+    flex-basis: 50%;
+    margin: 20px;
+  }
+  .img-col{
+    flex-basis: 50%;
+  }
+  .img-col img{
+    display: block;
+    width: 90%;
+  }
+  
+  .features h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .features p{
+    font-size: 18px;
+  }
+
+  .btn1{
+    background-color: rgb(2, 181, 139);
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: 0.5s;
+  }
+  .btn1:hover{
+    background-color: black;
+  }
+
+  /* ----- instructing steps ------- */
+  .img-col1{
+    flex-basis: 50%;
+    margin-bottom: 0px;
+  }
+  .img-col1 img{
+    display: block;
+    width: 100%;
+  }
+
+  .btn2{
+    background-color: rgb(2, 181, 139);
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: 0.5s;
+  }
+  .btn2:hover{
+    background-color: black;
+  }
+
+  /* -------FAQ------- */
+
+  .faq{
+    color: #000;
+    background: linear-gradient(to top right,rgb(134, 35, 228),rgb(244, 99, 239));
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .faq h2{
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+  }
+  .accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+  }
+  .accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+  }
+  label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  .accordion .content{
+    background: #fff;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+  }
+  .accordion input[type="radio"]:checked+label+ .content{
+    max-height: 600px;
+    padding: 30px 20px;
+  }
+  .accordion input[type="radio"]:checked+label::after{
+    transform: rotate(45deg);
+  }
+  .faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+  }
+  .faq small{
+    font-size: 15px;
+  }
+
+  .upload{
+    padding: 50px 20%;
+    text-align: center;
+    display: flex;
+    flex-basis: 50%;    
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .upload h1{
+    color: #fff;
+    font-family: 'Trebuchet MS';
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .btn3{
+    background-color: rgb(255, 207, 48);
+    padding: 10px 495px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: 0.5s;
+  }
+  .btn3:hover{
+    background-color: black;
+  }
+
+  .btn4{
+    background-color: rgb(212, 0, 255);
+    padding: 10px 510px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+  }
+  .btn4:hover{
+    background-color: black;
+  }
+
